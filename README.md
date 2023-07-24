@@ -30,6 +30,8 @@ The technical exercise involves creating a set of React components related to od
 
 ![OdourObservatory](/Odour-inputs.jpg)
 ![OdourObservatory](/OdourCollectVideo.gif)
+<img src="/MobileOdourInputs.jpg" alt="OdourObservatory" width="200" height="390"/>
+
 
 
 ### Next Steps
