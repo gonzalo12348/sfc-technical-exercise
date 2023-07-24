@@ -29,7 +29,7 @@ The technical exercise involves creating a set of React components related to od
 *Screenshot 2: OdourObservatory with Map and Odor Filter Inputs*
 
 ![OdourObservatory](/Odour-inputs.jpg)
-![OdourObservatory](/OdourCollectVideo.gif)
+<img src="/OdourCollectVideo.gif" alt="OdourObservatory" width="100%" height="550"/>
 <img src="/MobileOdourInputs.jpg" alt="OdourObservatory" width="200" height="390"/>
 
 
