@@ -24,7 +24,7 @@ The technical exercise involves creating a set of React components related to od
 
 *Screenshot 1: Landing Page with App Information*
 
-![Landing Page](/screenshots/landing_page.png)
+![Landing Page](/odour landing.jpeg)
 
 *Screenshot 2: OdourObservatory with Map and Odor Filter Inputs*
 
