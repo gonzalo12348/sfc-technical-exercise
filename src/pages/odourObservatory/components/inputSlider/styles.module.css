@@ -1,0 +1,26 @@
+.inputSliderContainer {
+    display: flex;
+    flex-direction: column;
+    width: 230px;
+    /* border: 2px solid purple; */
+}
+.inputSilderTitlesContainer {
+    /* width: 100%; */
+}
+
+.inputSlider {
+    min-width: 230px;
+    width: 100%;
+    box-sizing: border-box;
+    padding-inline: 10px;
+}
+
+.labelContainer {
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+    bottom: 10px;
+    text-align: end;
+    color: #606060;
+    font-size: 12px;
+}

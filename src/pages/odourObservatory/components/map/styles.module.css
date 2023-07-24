@@ -1,0 +1,8 @@
+.loadScriptContainer {
+    height: 100%;
+}
+
+.map {
+    height: 100% !important;
+    border-radius: inherit;
+}
