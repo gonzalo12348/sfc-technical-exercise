@@ -30,17 +30,10 @@ The technical exercise involves creating a set of React components related to od
 
 ![OdourObservatory](/screenshots/odour_observatory.png)
 
-### Conclusions
-
-The development of the technical exercise provided an opportunity to apply knowledge in React and CSS, as well as to integrate search functionality into the interactive map and odor filter inputs. The implementation of routes and navigation allows easy integration of these elements into the "OdourCollect" application.
 
 ### Next Steps
 
 It is recommended to perform integration testing and thorough code review to ensure its quality and proper functioning. Additionally, consider implementing unit tests to guarantee the good performance of the map component, search, and odor filter inputs.
-
-### Final Note
-
-The technical exercise was developed with the objective of showcasing technical skills and knowledge in web development. The solution is expected to meet the established requirements and be valuable for the "OdourCollect" project.
 
 ---
 
