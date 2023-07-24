@@ -1,0 +1,40 @@
+.datePickerContainer {
+    position: relative;
+  }
+  
+  .datePickerInputContainer {
+    border-radius: 10px;
+    width: 250px;
+    border: 2px solid #A9A9A9;
+    padding: 10px 10px 10px 20px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+  }
+  
+  .datePickerIcon {
+    font-size: 16px;
+    color: gray;
+    margin-right: 8px;
+  }
+  
+  .datePickerInput {
+    border: none;
+    outline: none;
+    background: transparent;
+    width: 100%;
+    padding: 2px;
+    cursor: pointer;
+  }
+  
+  .datePickerDropdown {
+    position: absolute;
+    z-index: 1;
+    background: white;
+  }
+
+@media screen and (max-width: 900px) {
+    .datePickerDropdown {
+        right: 20px;
+      }
+}
