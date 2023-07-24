@@ -5,7 +5,7 @@ import {
   RouterProvider,
 } from "react-router-dom";
 import LandingPage from './pages/landingPage';
-// import OdourObservatory from './pages/odourObservatory';
+import OdourObservatory from './pages/odourObservatory';
 
 const router = createBrowserRouter([
   {
@@ -14,12 +14,12 @@ const router = createBrowserRouter([
       <LandingPage />
       </div>,
   },
-  // {
-  //   path: "odour-observatory",
-  //   element: <div className='AppOdourObservatory'>
-  //   <OdourObservatory />
-  //   </div>,
-  // },
+  {
+    path: "odour-observatory",
+    element: <div className='AppOdourObservatory'>
+    <OdourObservatory />
+    </div>,
+  },
 ]);
 
 function App() {
