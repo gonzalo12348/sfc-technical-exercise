@@ -1,0 +1,157 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100%;
+  /* min-height: 100px; */
+  position: relative; /* Agrega posición relativa al navbar */
+  /* border: 2px solid black; */
+}
+.navbarOption {
+  cursor: pointer;
+}
+
+.iconChevronNavbar {
+    transition: transform 0.3s ease;
+    /* padding: 5px; */
+    margin: 5px;
+    font-size: 16px;
+}
+
+.rotated {
+    transform: rotate(180deg);
+}
+
+/* Estilos para los menús desplegables */
+/* .dropdownMenu {
+  position: absolute;
+  top: 100%; 
+  left: 0;
+  display: none;
+  border: 1px solid #000; 
+  padding: 10px;
+} */
+
+/* Estilos para las opciones del navbar */
+.navbarOption {
+  display: flex;
+    align-items: center;
+  margin: 0;
+  /* padding: 10px; */
+  cursor: pointer;
+  position: relative; /* Agrega posición relativa a las opciones del navbar */
+}
+
+/* Estilos para los menús desplegables */
+.dropdownMenu {
+  cursor: default;
+  opacity: 0;
+  transition: opacity 0.3s ease, max-height 0.3s ease;
+  overflow: hidden;
+  /* transition: opacity 0.3s ease, transform 0.3s ease; */
+  /* transform: translateY(-10px); */
+  position: absolute;
+  top: 200%; /* Asegura que los menús aparezcan debajo del título */
+  left: 0;
+  /* display: none; */
+  border: 2px solid #000; /* Borde negro */
+  border-bottom: 0px;
+  border-radius: 2px;
+  /* padding: 10px; */
+
+  width: 200px; /* Ancho del menú desplegable */
+  z-index: 1; /* Asegura que los menús estén por encima del contenido */
+}
+
+.dropdownLanguageMenu{
+  cursor: default;
+    opacity: 0;
+  transition: opacity 0.3s ease, max-height 0.3s ease;
+  overflow: hidden;
+  /* transition: opacity 0.3s ease, transform 0.3s ease; */
+  /* transform: translateY(-10px); */
+  position: absolute;
+  top: 95%; /* Asegura que los menús aparezcan debajo del título */
+  /* left: 0; */
+  /* display: none; */
+  border: 2px solid #000; /* Borde negro */
+  border-bottom: 0px;
+  border-radius: 2px;
+  margin-left: -7px;
+  /* padding: 10px; */
+  width: 140px;
+  /* padding: 5px; */
+  /* width: 200px;  */
+  z-index: 1; /* Asegura que los menús estén por encima del contenido */
+}
+
+/* .dropdownMenu {
+    opacity: 0;
+    max-height: 0;
+    overflow: hidden;
+    transition: opacity 0.3s ease, max-height 0.3s ease;
+  }
+  
+  .show .dropdownMenu {
+    opacity: 1;
+    overflow: visible;
+    max-height: 500px;
+  } */
+/* 
+.show .dropdownMenu {
+  opacity: 1 !important;
+  transform: translateY(0);
+} */
+.show {
+  cursor: pointer;
+    opacity: 1;
+    transform: translateY(0);
+    
+}
+
+.dropdownMenuItem {
+    display: flex;
+    /* width: 100%; */
+    height: 2rem;
+    /* text-align: center; */
+    align-items: center;
+    /* justify-content: center; */
+    border-bottom: 2px solid black;
+    border-radius: 2px;
+    padding-left: 5px;
+    /* padding: 0<px; */
+
+}
+
+.buttonLanguageContainer {
+    display: flex;
+    border: 2px solid black;
+    padding: 5px;
+    /* width: 100px; */
+    /* border: none; */
+    background: none;
+    /* padding: 0; */
+    margin: 0;
+    cursor: pointer;
+    /* font-size: 18px; */
+    /* background: none; */
+    /* width: auto; */
+    /* padding: 5px;
+    border: 2px solid black; */
+    /* box-sizing: content-box; */
+    width: 140px;
+}
+
+/* .buttonLanguageContainer h3 {
+
+    background: none;
+    width: auto;
+    padding: 5px;
+    border: 2px solid black;
+} */
+
+.linkToRedirect {
+  cursor: inherit;
+  text-decoration: none;
+  color: black;
+}
