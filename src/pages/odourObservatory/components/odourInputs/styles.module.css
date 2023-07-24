@@ -1,0 +1,116 @@
+.inputsContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    height: 23%;
+    margin-bottom: 0.7rem;
+  }
+  .inputContainer {
+    display: flex;
+    flex-direction: row;
+    height: 50%;
+    width: 100%;
+  }
+  .inputContainer p {
+    text-align: center;
+  }
+  .searchInputsContainer {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    align-items: center;
+    height: 100%;
+    width: 40%;
+    padding-top: 20px;
+    box-sizing: border-box;
+  }
+  .odourFiltersContainer {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 60%;
+  }
+  .odourFilterTitleContainer {
+    position: relative;
+    bottom: 10px;
+    height: 20px;
+    text-align: start;
+  }
+  .odourFilterItemsContainer {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+  }
+  .filterButton {
+    width: auto;
+    padding: 10px;
+    border: 2px solid #A9A9A9;
+    border-radius: 10px;
+    background-color: white;
+  }
+  
+  .filterButton:hover {
+    cursor: pointer;
+    background-color: #FAEBD7;
+  }
+  .inputSlidersContainer {
+    display: flex;
+    flex-direction: row;
+    padding-left: 0.5rem;
+    gap: 2.5rem;
+    height: 50%;
+  }
+  
+  
+  /* Estilos responsive */
+  @media screen and (max-width: 900px) {
+    .inputsContainer {
+      flex-direction: column;
+    }
+    .searchInputsContainer {
+        width: 100%;
+        padding-top: 10px;
+    }
+    .odourFiltersContainer {
+        width: 100%;
+    }
+    .odourFilterItemsContainer {
+        flex-direction: column;
+        gap: 0.5rem;
+      }
+      .inputSlidersContainer {
+        flex-direction: column;
+        gap: 1rem;
+        padding-left: 0;
+      }
+  }
+
+    /* Estilos para pantallas aún más pequeñas (hasta 480px) */
+@media screen and (max-width: 480px) {
+  .inputsContainer {
+    height: 20%;
+    min-height: 250px;
+  }
+  .inputContainer {
+    flex-direction: column;
+    gap: 0.5rem;
+    height: 60%;
+  }
+  .odourFilterItemsContainer {
+    display: flex;
+    flex-direction: row;
+    gap: 0.3rem;
+    width: 100%;
+    overflow-x: auto;
+    white-space: nowrap;
+  }
+  .inputSlidersContainer {
+    display: flex;
+    flex-direction: row;
+    height: 30%;
+    width: 100%;
+    overflow-x: auto;
+    white-space: nowrap;
+  }
+}

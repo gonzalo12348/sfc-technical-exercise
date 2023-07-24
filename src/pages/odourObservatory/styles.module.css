@@ -1,0 +1,138 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    padding-inline: 34px;
+    padding-top: 14px;
+    height: 100%;
+    /* background-color: aqua; */
+}
+
+.header {
+    height: 80px;
+    display: flex;
+}
+
+.main {
+    height: 100%;
+    /* background-color: black; */
+    /* border: 2px solid aqua; */
+}
+
+.inputsContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    /* justify-content: space-between; */
+    height: 23%;
+    margin-bottom: 0.7rem;
+    /* border: 2px solid salmon; */
+}
+.inputContainer {
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-between; */
+    /* align-items: center; */
+    height: 50%;
+    width: 100%;
+    /* border: 2px solid green; */
+}
+.inputSlidersContainer {
+    display: flex;
+    flex-direction: row;
+    padding-left: 0.5rem;
+    /* padding-top: 0.5rem; */
+    gap: 2.5rem;
+    /* justify-content: space-around; */
+    height: 50%;
+    /* border: 2px solid green; */
+}
+
+.odourFiltersContainer {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    /* align-items: center; */
+    height: 100%;
+    width: 60%;
+    /* border: 2px solid green; */
+}
+
+.odourFilterTitleContainer {
+    position: relative;
+    bottom: 10px;
+    height: 20px;
+    text-align: start;
+}
+
+.odourFilterItemsContainer {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    /* justify-content: space-evenly; */
+}
+
+.searchInputsContainer {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    /* justify-content: space-evenly; */
+    align-items: center;
+    height: 100%;
+    width: 40%;
+    padding-top: 20px;
+    box-sizing: border-box;
+    /* border: 2px solid rgb(128, 45, 0); */
+}
+
+.mapContainer {
+    /* max-height: 650px; */
+    border-radius: 10px;
+    height: 75%;
+    /* border: 2px solid red; */
+}
+.map {
+    height: 100% !important;
+    border-radius: inherit;
+}
+
+.loadScriptContainer {
+    height: 100%;
+}
+
+.inputSliderContainer {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    /* border: 2px solid purple; */
+}
+/* .slider {
+    color: #000;
+} */
+
+
+.inputContainer p {
+    text-align: center;
+}
+.inputSilderTitlesContainer {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.inputSlider {
+    width: 100%;
+    box-sizing: border-box;
+    padding-inline: 10px;
+}
+
+.filterButton {
+    width: auto;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: white;
+}
+.filterButton:hover {
+    cursor: pointer;
+    background-color: #FAEBD7;
+}
