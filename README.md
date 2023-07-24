@@ -1,70 +1,48 @@
-# Getting Started with Create React App
+# OdourCollect - Technical Exercise
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Development of the Technical Exercise
 
-## Available Scripts
+### Technical Exercise Description
 
-In the project directory, you can run:
+The technical exercise involves creating a set of React components related to odor perception and intensity. Two main screens were developed:
 
-### `npm start`
+1. **LandingPage:** A landing page that contains information about the "OdourCollect" application.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+2. **OdourObservatory (Map with Odor Filters):** A screen that displays an interactive map where users can search and select locations related to odor perception. Additionally, this screen includes input sliders for odor intensity filters.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Implemented Solution
 
-### `npm test`
+1. **Map Component with Search:** Implemented a component that uses the map API to display an interactive map on the OdourObservatory screen. Integrated search functionality allows users to search for specific locations and highlight them on the map.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+2. **Odor Filter Input Component:** Developed a component that allows users to select odor intensity using a set of slider inputs.
 
-### `npm run build`
+3. **CSS Styles:** Applied CSS styles to format and design the map component, search, and odor filter inputs, ensuring proper display on different screen sizes.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+4. **Routes and Navigation:** Implemented the necessary routes for the LandingPage and OdourObservatory, enabling access from different parts of the application.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Screenshots
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+*Screenshot 1: Landing Page with App Information*
 
-### `npm run eject`
+![Landing Page](/screenshots/landing_page.png)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+*Screenshot 2: OdourObservatory with Map and Odor Filter Inputs*
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+![OdourObservatory](/screenshots/odour_observatory.png)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### Conclusions
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+The development of the technical exercise provided an opportunity to apply knowledge in React and CSS, as well as to integrate search functionality into the interactive map and odor filter inputs. The implementation of routes and navigation allows easy integration of these elements into the "OdourCollect" application.
 
-## Learn More
+### Next Steps
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+It is recommended to perform integration testing and thorough code review to ensure its quality and proper functioning. Additionally, consider implementing unit tests to guarantee the good performance of the map component, search, and odor filter inputs.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### Final Note
 
-### Code Splitting
+The technical exercise was developed with the objective of showcasing technical skills and knowledge in web development. The solution is expected to meet the established requirements and be valuable for the "OdourCollect" project.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+---
 
-### Analyzing the Bundle Size
+Thank you for the opportunity to work on this technical exercise! If you have any questions or suggestions, feel free to contact me.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
